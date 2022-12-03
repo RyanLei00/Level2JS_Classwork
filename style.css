@@ -1,0 +1,28 @@
+div.colordiv{
+    color: black;
+    background-color: orange;
+}
+
+div.textdiv{
+    font: bold 24pt comic sans ms;
+    text-decoration: underline wavy green;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font:bold 16pt arial;
+}
+
+.ex{
+    background-color: red;
+    font: 14pt comic sans ms;
+}
+
+a{
+    font: 24pt arial;
+    color: blue;
+    text-decoration: none;
+}

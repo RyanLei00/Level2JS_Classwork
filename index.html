@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload = "initialize();initializeCSS();initializeEX();initializeSite();">
+    <!--3. Dynamic CSS-->
+    <div id = "colordiv">
+        Click the button to switch me from black to orange and back again and again. Happy Halloween.
+    </div>
+    <p>
+        <button onclick = "toggleColor();">Toggle Colors</button>
+        <button onclick = "changeWidth(25);">25% Width</button>
+        <button onclick = "changeWidth(50);">50% Width</button>
+        <button onclick = "changeWidth(75);">75% Width</button>
+        <button onclick = "changeWidth(100);">100% Width</button>
+    </p>
+    
+    <!--4. CSS Complex Properties-->
+    <div id = "textdiv">
+        I am a wonderful example of how fonts work!
+    </div>
+    <hr />
+    <p>
+        <div>Current font size: <span id = "sizeout"></span> point</div>
+        <button onclick = "modifyFontSize(1);">Font Size ++</button>
+        <button onclick = "modifyFontSize(-1);">Font Size --</button>
+    </p>
+
+    <!--5. External Files-->
+    <h1>This is my great page about external files</h1>
+    <p id = "numout"></p>
+    <button class = "ex" onclick = "changeNumber();">Change the number</button>
+
+    <!--6. Site Navigation-->
+    <h1>This is my home page</h1>
+    <a href = "destination.html">Link to Destination Page</a><br /><br />
+    <a href = "http://google.com" target = "_blank">Link to Google</a>
+    <script src="script.js"></script>
+</body>
+</html>
